@@ -1,19 +1,19 @@
 # Interval-Tree
-Interval Tree Implementation
+Interval Tree Implementation<br>
+<br>
+Interval.cpp<br>
+Interval.h<br>
+IntervalTree.cpp<br>
+IntervalTree.h<br>
+<br>
+IntervalTree Methods: <br>
+IntervalSearch(Interval &other) <br>
+  // checks to see if there is an overlapping interval in the tree<br>
+  // returns INode that overlaps, else nullptr<br>
+Insert<br>
+  // insert an interval<br>
+Delete<br>
+  // delete an interval from the tree (return false if not found)<br>
 
-Interval.cpp
-Interval.h
-IntervalTree.cpp
-IntervalTree.h
-
-IntervalTree Methods:
-IntervalSearch(Interval &other) 
-  // checks to see if there is an overlapping interval in the tree
-  // returns INode that overlaps, else nullptr
-Insert
-  // insert an interval
-Delete
-  // delete an interval from the tree (return false if not found)
-
-Interval Methods:
-overlap(Interval &other)
+Interval Methods:<br>
+overlap(Interval &other)<br>
