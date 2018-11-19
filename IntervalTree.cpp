@@ -96,3 +96,16 @@ bool IntervalTree::remove(Interval &input) {
     }
     return false;
 }
+
+IntervalTree::INode* IntervalTree::intervalSearch(Interval &input) {
+    INode* curr = this->root;
+    while(curr) {
+        if(curr->interval.overlap(input)) return curr;
+        if(curr->left && input.low <= curr->left->max) {
+            curr = curr->left;
+        } else {
+            curr = curr->right;
+        }
+    }
+    return nullptr;
+}

@@ -26,6 +26,7 @@ public:
     void insert(Interval &input);
     bool remove(Interval &input);
     INode* minValue(INode *root);
+    INode* intervalSearch(Interval &input);
 };
 
 

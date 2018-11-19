@@ -12,7 +12,7 @@ int main() {
     IT.insert(b);
     IT.insert(c);
     IT.insert(d);
-    std::cout << IT.remove(c) << std::endl;
-    std::cout << IT.root->data << std::endl;
+    int x = IT.intervalSearch(c)->data;
+    std::cout << x << std::endl;
     return 0;
 }

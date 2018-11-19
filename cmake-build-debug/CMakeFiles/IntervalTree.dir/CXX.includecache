@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/oneness/CLionProjects/IntervalTree/Interval.cpp
+Interval.h
+/Users/oneness/CLionProjects/IntervalTree/Interval.h
+
+/Users/oneness/CLionProjects/IntervalTree/Interval.h
+
+/Users/oneness/CLionProjects/IntervalTree/IntervalTree.cpp
+IntervalTree.h
+/Users/oneness/CLionProjects/IntervalTree/IntervalTree.h
+iostream
+-
+
+/Users/oneness/CLionProjects/IntervalTree/IntervalTree.h
+Interval.h
+/Users/oneness/CLionProjects/IntervalTree/Interval.h
+
+/Users/oneness/CLionProjects/IntervalTree/main.cpp
+iostream
+-
+Interval.h
+/Users/oneness/CLionProjects/IntervalTree/Interval.h
+IntervalTree.h
+/Users/oneness/CLionProjects/IntervalTree/IntervalTree.h
+
